@@ -1,0 +1,1 @@
+jupyter nbconvert --to slides index.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_theme='simple' --SlidesExporter.reveal_scroll=True --template custom.tpl  --SlidesExporter.reveal_theme='simple' --TemplateExporter.exclude_input=True
