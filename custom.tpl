@@ -235,10 +235,13 @@ require(
         // Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
             controls: true,
+            controlsLayout: 'bottom-right',
             progress: true,
             history: true,
-            width: '100%',
+            width: '80%',
             height: '100%',
+            navigationMode: 'linear',
+            touch: false,
 
             transition: "{{resources.reveal.transition}}",
 
