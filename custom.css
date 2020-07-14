@@ -24,6 +24,11 @@ body {
   background-color: #fff;
   color: #000; }
 
+div.prompt {
+	width: 0ex;
+	min-width: 0ex;
+ }
+
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
@@ -235,7 +240,7 @@ body {
     position: absolute;
     padding: 0;
     background-color: transparent;
-    border: 0;
+    border: 12px solid transparent;
     outline: 0;
     cursor: pointer;
     color: currentColor;
@@ -483,7 +488,6 @@ body {
   left: 0;
   margin: auto;
   pointer-events: none;
-  overflow: visible;
   z-index: 1;
   text-align: left;
   -webkit-perspective: 600px;
